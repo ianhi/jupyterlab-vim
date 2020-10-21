@@ -1,6 +1,6 @@
 {
   "name": "@axlair/jupyterlab_vim",
-  "version": "0.12.4",
+  "version": "0.13.0",
   "description": "Code cell vim bindings",
   "author": "Axel Fahy",
   "license": "MIT",
@@ -35,19 +35,19 @@
     "extension": true
   },
   "dependencies": {
-    "@jupyterlab/application": "^2.0.1",
-    "@jupyterlab/cells": "^2.0.1",
-    "@jupyterlab/codemirror": "^2.0.1",
-    "@jupyterlab/notebook": "^2.0.1",
+    "@jupyterlab/application": ">=3.0.0-rc.5",
+    "@jupyterlab/cells": ">=3.0.0-rc.5",
+    "@jupyterlab/codemirror": ">=3.0.0-rc.5",
+    "@jupyterlab/notebook": ">=3.0.0-rc.5",
     "@lumino/commands": "^1.10.1",
     "@lumino/coreutils": "^1.4.2",
     "@lumino/domutils": "^1.1.7",
-    "@types/codemirror": "^0.0.87",
-    "react": "16.9.0"
+    "@types/codemirror": "^0.0.87"
   },
   "devDependencies": {
     "rimraf": "^2.6.2",
     "tslint": "^6.1.2",
-    "typescript": "^3.9.3"
+    "@jupyterlab/builder": "^3.0.0-rc.2",
+    "typescript": "~4.0.3"
   }
 }
